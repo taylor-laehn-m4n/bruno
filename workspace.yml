@@ -1,0 +1,12 @@
+opencollection: 1.0.0
+info:
+  name: "My Workspace"
+  type: workspace
+
+collections:
+  - name: "SynapseAnywhereTest"
+    path: "C:/Users/taylor.laehn/OneDrive - Made4net/Documents/bruno/SynapseAnywhereTest"
+
+specs:
+
+docs: ''
