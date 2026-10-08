@@ -1,0 +1,10 @@
+name: local-api
+variables:
+  - name: baseUrl
+    value: https://localhost:3000
+    description: ""
+  - name: username
+    value: synapse
+    description: ""
+  - secret: true
+    name: password

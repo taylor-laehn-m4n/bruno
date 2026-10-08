@@ -1,0 +1,10 @@
+name: local-dev
+variables:
+  - name: baseUrl
+    value: http://localhost:4300
+    description: ""
+  - name: username
+    value: SITEMANAGER
+    description: ""
+  - secret: true
+    name: password

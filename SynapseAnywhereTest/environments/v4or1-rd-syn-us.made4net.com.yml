@@ -1,0 +1,10 @@
+name: v4or1-rd-syn-us.made4net.com
+variables:
+  - name: baseUrl
+    value: https://v4or1-rd-syn-us.made4net.com/test/synapse-anywhere
+    description: ""
+  - name: username
+    value: SITEMANAGER
+    description: ""
+  - secret: true
+    name: password
