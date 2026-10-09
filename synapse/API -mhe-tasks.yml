@@ -1,14 +1,19 @@
 info:
-  name: API /customer
+  name: API /mhe/tasks
   type: http
-  seq: 4
+  seq: 5
 
 http:
   method: POST
-  url: "{{baseUrl}}/api/customer"
+  url: "{{baseUrl}}/api/mhe/tasks"
   body:
     type: json
-    data: "{}"
+    data: |
+      {
+        "facility": "FAC",
+        "customer": "CUST",
+        "task_type": "PK"
+      }
   auth: inherit
 
 settings:

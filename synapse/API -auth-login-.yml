@@ -1,5 +1,5 @@
 info:
-  name: API /auth/login/
+  name: API /auth/login
   type: http
   seq: 2
 

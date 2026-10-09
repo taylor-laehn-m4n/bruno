@@ -1,0 +1,27 @@
+info:
+  name: API /create/user
+  type: http
+  seq: 6
+
+http:
+  method: POST
+  url: "{{baseUrl}}/api/create/user"
+  body:
+    type: json
+    data: |-
+      {
+        "nameid": "AUTOTEST1",
+        "name": "Auto Test User",
+        "password": "AUTOTEST1",
+        "current_facility": "WH1",
+        "all_customers": "A",
+        "customers": ["ARC"]
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

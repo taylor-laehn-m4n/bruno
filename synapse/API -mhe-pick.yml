@@ -1,0 +1,36 @@
+info:
+  name: MHE Pick
+  type: http
+  seq: 8
+
+http:
+  method: POST
+  url: "{{baseUrl}}/api/mhe/pick"
+  headers:
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: |
+      {
+        "requestID": "bruno-pick-001",
+        "picks": [
+          {
+            "taskId": 12345,
+            "item": "REPLACE_WITH_TASK_ITEM",
+            "location": "REPLACE_WITH_PICK_LOCATION",
+            "user": "REPLACE_WITH_RF_USER",
+            "toPlate": "REPLACE_WITH_DESTINATION_PLATE",
+            "quantity": 1,
+            "short": 0
+          }
+        ]
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
