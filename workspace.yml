@@ -4,8 +4,8 @@ info:
   type: workspace
 
 collections:
-  - name: "SynapseAnywhereTest"
-    path: "C:/Users/taylor.laehn/OneDrive - Made4net/Documents/bruno/SynapseAnywhereTest"
+  - name: "Synapse"
+    path: "C:\git\bruno\Synapse"
 
 specs:
 

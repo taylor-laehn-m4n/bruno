@@ -1,7 +1,7 @@
 opencollection: 1.0.0
 
 info:
-  name: Synapse Test
+  name: Synapse Test Actually
 config:
   proxy:
     inherit: true
