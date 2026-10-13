@@ -1,14 +1,17 @@
 info:
   name: API /carrier
   type: http
-  seq: 10
+  seq: 6
 
 http:
   method: POST
-  url: "{{baseUrl}}/api/carrier"
+  url: "{{baseUrl}}/api/data-warehouse/v1/carrier/carriers"
   body:
     type: json
-    data: "{}"
+    data: |-
+      {
+
+      }
   auth: inherit
 
 settings:

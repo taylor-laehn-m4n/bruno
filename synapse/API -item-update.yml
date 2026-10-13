@@ -1,0 +1,29 @@
+info:
+  name: API /item/update
+  type: http
+  seq: 11
+
+http:
+  method: POST
+  url: "{{baseUrl}}/api/customer/item/update"
+  headers:
+    - name: Content-Type
+      value: application/json
+  body:
+    type: json
+    data: |-
+      {
+        "action": "A",
+        "custid": "XXX",
+        "item": "AutoTestItem",
+        "description": "Item description",
+        "add_status": "ACTV"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
